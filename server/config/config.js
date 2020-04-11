@@ -23,6 +23,7 @@ if (process.env.NODE_ENV === 'dev') { // si esta en desarrollo
 
 } else {
     // urlBD = 'mongodb+srv://gibran1:D5CeLUjiVnRYJpNk@cluster0-eaqs3.mongodb.net/cafe';
-    urlBD = 'mongodb+srv://gibran1:D5CeLUjiVnRYJpNk@cluster0-eaqs3.mongodb.net/cafe?retryWrites=true&w=majority';
+    // urlBD = 'mongodb+srv://gibran1:D5CeLUjiVnRYJpNk@cluster0-eaqs3.mongodb.net/cafe?retryWrites=true&w=majority';
+    urlBD = process.env.MONGO_URI;
 }
 process.env.URLBD = urlBD;
