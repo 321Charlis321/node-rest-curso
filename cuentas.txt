@@ -1,0 +1,15 @@
+mongodb
+user : ch.ar.lis@hotmail.com	
+pass: frankzua1
+
+databases : gibran1
+pass: D5CeLUjiVnRYJpNk
+
+
+Mongodb URL:
+
+
+mongodb+srv://gibran1:D5CeLUjiVnRYJpNk@cluster0-eaqs3.mongodb.net/test
+
+
+m9YDxmtaAZIXm2Cr
